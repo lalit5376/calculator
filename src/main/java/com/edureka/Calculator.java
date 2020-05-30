@@ -51,6 +51,7 @@ public class Calculator extends HttpServlet {
 		  PrintWriter out= response.getWriter();
 
 		  out.println(""+e);
+		  System.out.println("Changed");
 
           }
         }
