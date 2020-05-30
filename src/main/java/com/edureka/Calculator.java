@@ -49,7 +49,7 @@ public class Calculator extends HttpServlet {
           catch(Exception e)
           {
 
-		  System.out.println(" NOChanged");
+		  System.out.println(" Changed");
 
           }
         }
