@@ -48,11 +48,10 @@ public class Calculator extends HttpServlet {
         
           catch(Exception e)
           {
-
+              out.println("Hello");
           }
         }
         public int add(int a, int b) {
-        	int ret = a + b;
             return a + b ;
         }
         
