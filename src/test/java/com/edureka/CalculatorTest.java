@@ -79,7 +79,7 @@ public class CalculatorTest extends Mockito{
 
 
         when(request.getParameter("n1")).thenReturn("8");
-        when(request.getParameter("n2")).thenReturn("2");
+        when(request.getParameter("n2")).thenReturn("3");
         when(request.getParameter("r4")).thenReturn("r4");
         
         StringWriter stringWriter = new StringWriter();
@@ -111,7 +111,7 @@ public class CalculatorTest extends Mockito{
     //@Test
     public void testAdd() throws Exception {
 
-        int k= new Calculator().add(8,7);
+        int k= new Calculator().add(8,6);
         assertEquals("Problem with Add function:", 14, k);
         
     }
