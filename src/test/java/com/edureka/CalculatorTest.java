@@ -9,8 +9,8 @@ import com.edureka.Calculator;
 
 public class CalculatorTest extends Mockito{
 
-    @Test
-   /* public void testAddServlet() throws Exception {
+   /* @Test
+    public void testAddServlet() throws Exception {
         HttpServletRequest request = mock(HttpServletRequest.class);       
         HttpServletResponse response = mock(HttpServletResponse.class);    
 
