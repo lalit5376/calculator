@@ -111,7 +111,7 @@ public class CalculatorTest extends Mockito{
     //@Test
     public void testAdd() throws Exception {
 
-        int k= new Calculator().add(8,6);
+        int k= new Calculator().add(8,7);
         assertEquals("Problem with Add function:", 14, k);
         
     }
