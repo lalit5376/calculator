@@ -116,13 +116,13 @@ public class CalculatorTest extends Mockito{
         
     }
     //@Test
-    public void testSub() throws Exception {
+/*    public void testSub() throws Exception {
 
         int k= new Calculator().sub(8,7);
         assertEquals("Problem with Sub function:", 1, k);
 
     }
-    
+ */   
     //@Test
     public void testMul() throws Exception {
 
