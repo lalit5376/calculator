@@ -9,7 +9,7 @@ import com.edureka.Calculator;
 
 public class CalculatorTest extends Mockito{
 
-   /* @Test
+    @Test
     public void testAddServlet() throws Exception {
         HttpServletRequest request = mock(HttpServletRequest.class);       
         HttpServletResponse response = mock(HttpServletResponse.class);    
@@ -28,7 +28,7 @@ public class CalculatorTest extends Mockito{
         writer.flush(); // it may not have been flushed yet...
         System.out.print(stringWriter.toString());
         assertTrue("Expecting Addition but not found",stringWriter.toString().contains("Addition"));
-    }*/
+    }
     
     @Test
     public void testSubServlet() throws Exception {
