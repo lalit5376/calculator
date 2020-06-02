@@ -1,5 +1,4 @@
 pipeline {
-agent { label 'worker' }
 stages {
 stage('Compile') {
 steps{
